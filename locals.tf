@@ -658,7 +658,6 @@ ports:
       entryPoint:
         to: websecure
         scheme: https
-        permanent: true
 %{endif~}
 %{if !local.using_klipper_lb~}
     proxyProtocol:
